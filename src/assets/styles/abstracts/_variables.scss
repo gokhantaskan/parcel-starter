@@ -1,0 +1,12 @@
+// Color variables
+$color-primary: #FFC700;
+$color-secondary: #26220d;
+
+// * https://github.com/timhettler/sass-yiq
+
+$yiq-contrasted-dark-default: #000 !default;
+$yiq-contrasted-light-default: #fff !default;
+$yiq-contrasted-threshold: 128 !default;
+$yiq-debug: false !default;
+
+$transition-base: all .15s ease;

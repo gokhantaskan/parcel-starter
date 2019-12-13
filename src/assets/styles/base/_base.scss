@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  transition: $transition-base;;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: 3rem;
+  text-align: center;
+}

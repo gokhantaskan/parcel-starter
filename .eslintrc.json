@@ -1,0 +1,25 @@
+{
+  "rules": {
+    "no-console": 1,
+    "no-debugger": 1,
+    "quotes": [1, "double", {
+      "avoidEscape": true
+    }],
+    "semi": 1,
+    "arrow-parens": [1, "as-needed"]
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  }
+}
