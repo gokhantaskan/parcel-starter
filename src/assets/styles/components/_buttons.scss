@@ -5,7 +5,6 @@
   border: 1px solid transparent;
   border-radius: 4px;
   cursor: pointer;
-  background-color: $color-primary;
   @include yiq-contrasted($color-primary);
   transition: $transition-base;;
   outline: 0 !important;
