@@ -1,8 +1,9 @@
+import "./assets/styles/main.scss";
 import { injectSvg } from "./utils";
 
 // Trigger dark theme with button click
-const btn = document.getElementById("btn");
-const htmlBody = document.querySelector("body");
+const btn: HTMLElement | null = document.getElementById("btn");
+const htmlBody: HTMLElement | null = document.querySelector("body");
 
 if (btn && htmlBody) {
   btn.addEventListener("click", () => {
@@ -10,4 +11,5 @@ if (btn && htmlBody) {
   });
 }
 
+// ex. <img class="inj" src="x.svg" /> will be rendered
 injectSvg("inj");

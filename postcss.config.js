@@ -5,7 +5,7 @@ module.exports = {
       "grid": true
     },
     "postcss-url": {
-      "url": "inline"
+      url: "inline"
     }
   }
 };
