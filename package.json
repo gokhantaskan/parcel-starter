@@ -13,7 +13,7 @@
     "clean": "rm dist/bundle.js",
     "clear": "rm -rf dist .cache",
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --no-source-maps",
     "lint": "eslint -c .eslintrc.json --fix --ext .js,.ts ."
   },
   "dependencies": {},

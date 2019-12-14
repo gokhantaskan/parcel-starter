@@ -1,6 +1,8 @@
 # Parcel Starter
 
-Parcel.js starter kit with SASS, PostCSS, and TypeScript support
+My Parcel.js boilerplate with SASS, PostCSS, and TypeScript support.
+
+Live demo: https://silly-bassi-fc5939.netlify.com/
 
 ```js
 "devDependencies": {
@@ -11,6 +13,7 @@ Parcel.js starter kit with SASS, PostCSS, and TypeScript support
   "autoprefixer": "^9.7.3",
   "eslint": "^6.7.2",
   "parcel-bundler": "^1.12.4",
+  "parcel-plugin-structurize": "^1.1.6",
   "postcss": "^7.0.24",
   "postcss-url": "^8.0.0",
   "sass": "^1.23.7",
@@ -31,6 +34,12 @@ To run in hot module reloading mode:
 
 ```sh
 npm start
+```
+
+Before create a production build:
+
+```sh
+npm run clear
 ```
 
 To create a production build:
