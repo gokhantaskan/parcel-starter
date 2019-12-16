@@ -7,19 +7,25 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 500;
   margin-top: 3rem;
   text-align: center;
+  text-transform: capitalize;
   position: relative;
 
   &::before {
     content: "";
     position: absolute;
-    top: -100px;
-    left: 0;
+    top: -48px;
+    left: -40%;
     width: 100%;
     height: 64px;
     background: url("../img/urlINLINE.png") no-repeat center;
+    transform: scale(0.5);
   }
+}
+
+#btn {
+  max-width: 240px;
 }
